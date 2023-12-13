@@ -58,22 +58,26 @@ public class Test {
 		taro.walk();
 		taro.run();
 		
-		Robot robo = new Robot();
+		Robot aibo = new Robot();
 		
-		robo.name = "aibo";
-		robo.talk();
-		robo.walk();
-		robo.run();
+		aibo.name = "aibo";
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
 		
-		robo.name = "asimo";
-		robo.talk();
-		robo.walk();
-		robo.run();
+		Robot asimo = new Robot();
 		
-		robo.name = "pepper";
-		robo.talk();
-		robo.walk();
-		robo.run();
+		asimo.name = "asimo";
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+		
+		Robot pepper = new Robot();
+		
+		pepper.name = "pepper";
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
 	}
 
 }
